@@ -82,7 +82,7 @@ npm install
 Create a \`.env\` file in the \`/server\` directory and add the following:
 \`\`\`
 MONGO_URI=your-mongodb-uri
-PORT=5000
+PORT=3500
 \`\`\`
 
 ### Run the application
@@ -101,7 +101,7 @@ cd client
 npm start
 \`\`\`
 
-The application will be available at \`http://localhost:3000\`.
+The application will be available at \`http://localhost:5173\`.
 
 ## API Endpoints
 
