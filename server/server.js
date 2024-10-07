@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3500;
 
 // CORS configuration
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://mern-todo-4brt97viy-fsagrahari23s-projects.vercel.app/',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization','Cache-Control'],
